@@ -38,7 +38,7 @@ def minimaxsum(arr):
         new_arr[i]=0
         append_sum = sum(new_arr)
         final_list.append(append_sum)
-    print(min(final_list),'',max(final_list))
+    print(min(final_list),max(final_list))
 
 if __name__ == '__main__':
 
